@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lijie Zhang | Academic Website</title>
+  <meta
+    name="description"
+    content="Academic website of Lijie Zhang, undergraduate researcher in environmental and development economics."
+  >
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__intro">
+        <p class="eyebrow">Academic Profile</p>
+        <h1 id="name"></h1>
+        <p id="tagline" class="hero__tagline"></p>
+        <p id="bio" class="hero__bio"></p>
+        <div id="contact-list" class="contact-list"></div>
+      </div>
+      <aside class="hero__card">
+        <p class="hero__card-label">Current Focus</p>
+        <h2 id="current-proposal-title"></h2>
+        <p id="current-proposal-description"></p>
+      </aside>
+    </header>
+
+    <main class="layout">
+      <section class="panel panel--wide" id="about">
+        <div class="section-heading">
+          <p class="section-heading__kicker">01</p>
+          <h2>Research Interests</h2>
+        </div>
+        <div id="interests" class="chip-list"></div>
+      </section>
+
+      <section class="panel" id="education">
+        <div class="section-heading">
+          <p class="section-heading__kicker">02</p>
+          <h2>Education</h2>
+        </div>
+        <div id="education-list" class="stack-list"></div>
+      </section>
+
+      <section class="panel" id="highlights">
+        <div class="section-heading">
+          <p class="section-heading__kicker">03</p>
+          <h2>Highlights</h2>
+        </div>
+        <div id="highlights-list" class="fact-grid"></div>
+      </section>
+
+      <section class="panel panel--wide" id="publications">
+        <div class="section-heading">
+          <p class="section-heading__kicker">04</p>
+          <h2>Publications & Working Papers</h2>
+        </div>
+        <div id="publications-list" class="stack-list"></div>
+      </section>
+
+      <section class="panel panel--wide" id="experience">
+        <div class="section-heading">
+          <p class="section-heading__kicker">05</p>
+          <h2>Research Experience</h2>
+        </div>
+        <div id="experience-list" class="stack-list"></div>
+      </section>
+
+      <section class="panel" id="honors">
+        <div class="section-heading">
+          <p class="section-heading__kicker">06</p>
+          <h2>Honors & Awards</h2>
+        </div>
+        <div id="honors-list" class="stack-list"></div>
+      </section>
+
+      <section class="panel" id="skills">
+        <div class="section-heading">
+          <p class="section-heading__kicker">07</p>
+          <h2>Languages & Skills</h2>
+        </div>
+        <div id="skills-list" class="skill-groups"></div>
+      </section>
+
+      <section class="panel panel--wide" id="activities">
+        <div class="section-heading">
+          <p class="section-heading__kicker">08</p>
+          <h2>Other Activities</h2>
+        </div>
+        <div id="activities-list" class="stack-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: <span id="last-updated"></span></p>
+      <p>This website is generated from a simple content file for easy future editing.</p>
+    </footer>
+  </div>
+
+  <script src="./content.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
