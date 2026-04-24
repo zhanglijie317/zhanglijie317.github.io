@@ -82,8 +82,8 @@ window.siteContent = {
     {
       title: "When Culture Meets Nature: Confucian Norms, Biodiversity Disclosure, and Natural Capital Risk in China",
       subtitle: "with Zhiyuan Gao and Yu Hao",
-      date: "Submitted",
-      venue: "World Development",
+      date: "Under Review",
+      venue: "Ecological Economics",
       description:
         "Studies how Confucian cultural exposure shapes firms' biodiversity disclosure using more than 50,000 firm-year observations from 2001 to 2023, showing that cultural exposure strengthens environmental responsibility with heterogeneous regional effects.",
       tags: ["Culture", "Biodiversity disclosure", "Text data"]
@@ -101,7 +101,7 @@ window.siteContent = {
       title: "Unequal Growth, Unequal Green: Income Inequality, Ecological Governance, and Urban Development in China",
       subtitle: "with Zhiyuan Gao and Yu Hao",
       date: "Submitted",
-      venue: "Regional Studies",
+      venue: "Habitat International",
       description:
         "Builds a resilience-based Urban Ecological Performance index for 281 Chinese cities and shows that income inequality undermines ecological governance through multiple channels using fixed effects, IV, and double machine learning.",
       tags: ["Income inequality", "Urban development", "Double machine learning"]
