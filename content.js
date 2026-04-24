@@ -13,10 +13,6 @@ window.siteContent = {
         href: "mailto:lijie.zhang317@gmail.com"
       },
       {
-        label: "Phone",
-        value: "+86 18981059260"
-      },
-      {
         label: "Location",
         value: "Beijing Institute of Technology, Beijing, China"
       }
